@@ -1,0 +1,4 @@
+{
+    "image_path": "path/to/your/coco2017/val2017",
+    "prompt_file_path": "path/to/your/coco2017/annotations/captions_val2017.json"
+}

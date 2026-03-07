@@ -1,0 +1,8 @@
+{
+    "sd3": "path/to/your/stable-diffusion-3-medium-diffusers",
+    "sd3_controlnet": "path/to/your/SD3-Controlnet-Canny",
+    "sd3_pag": "path/to/your/stable-diffusion-3-medium-diffusers",
+    "sd35": "path/to/your/stable-diffusion-3.5-large",
+    "flux": "path/to/your/FLUX.1-dev",
+    "qwenimage": "path/to/your/Qwen-Image"
+}

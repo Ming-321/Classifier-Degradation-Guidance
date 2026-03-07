@@ -1,0 +1,26 @@
+{
+    "guidance_scale": 3.5,
+    "num_inference_steps": 28,
+    "process_params": {
+      "process_index": 2,
+      "degrade_ratio": {
+        "content": 1,
+        "padding": 0
+      },
+      "separate_clip_t5": true,
+      "use_negative_pooled_prompt_embeds": false,
+      "all_use_first_step_importance": true,
+      "use_random_sorted_indices": false,
+      "calculate_params": {
+        "cal_score_algorithm": "text_only_pagerank",
+        "cal_sorted_indices_algorithm": "variance_weighted",
+        "process_type": "min",
+        "v_min": 0.00,
+        "v_max": null,
+        "epsilon": 1e-4,
+        "max_iterations": 20,
+        "norm_type": "L1",
+        "damping_factor": 0.0
+      }
+    }
+} 

@@ -1,0 +1,25 @@
+{
+    "CLIPScore": {
+        "name": "path/to/your/clip-vit-base-patch32",
+        "batch_size": 250,
+        "device": "cuda"
+    },
+    "VQAScore": {
+        "name": "clip-flant5-xxl",
+        "question_template": "Does this figure show \"{}\"? Please answer yes or no.",
+        "answer_template": "Yes",
+        "batch_size": 250,
+        "device": "cuda"
+    },
+    "FID": {
+        "feature_dim": 2048,
+        "batch_size": 250,
+        "device": "cuda"
+    },
+    "AestheticScore": {
+        "encoder_model": "path/to/your/siglip-so400m-patch14-384",
+        "predictor_path": "path/to/your/aesthetic_predictor_v2_5.pth",
+        "batch_size": 250,
+        "device": "cuda"
+    }
+}

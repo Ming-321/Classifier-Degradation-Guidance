@@ -1,0 +1,25 @@
+{
+    "guidance_scale": 4.0,
+    "num_inference_steps": 25,
+    "process_params": {
+        "tail_n": 5,
+        "tail_variant": "tail_only",
+        "process_index": -1,
+        "positive_magic": "",
+        "max_sequence_length": 512,
+        "width": 512,
+        "height": 512,
+        "transformer_gpu": 0,
+        "text_encoder_gpu": 1,
+        "vae_gpu": 2,
+        "calculate_params": {
+            "cal_score_algorithm": "text_only_pagerank",
+            "cal_sorted_indices_algorithm": "variance_weighted",
+            "norm_type": "L1",
+            "v_min": 0.0,
+            "epsilon": 1e-4,
+            "max_iterations": 20,
+            "damping_factor": 0.0
+        }
+    }
+}

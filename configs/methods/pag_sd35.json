@@ -1,0 +1,10 @@
+{
+    "guidance_scale": 1,
+    "pag_scale": 3,
+    "pag_applied_layers": ["blocks.13"],
+    "num_inference_steps": 28
+}
+
+
+
+

@@ -1,0 +1,11 @@
+{
+    "guidance_scale": 4.0,
+    "num_inference_steps": 25,
+    "negative_prompt": " ",
+    "width": 512,
+    "height": 512,
+    "max_sequence_length": 512,
+    "transformer_gpu": 0,
+    "text_encoder_gpu": 1,
+    "vae_gpu": 2
+}

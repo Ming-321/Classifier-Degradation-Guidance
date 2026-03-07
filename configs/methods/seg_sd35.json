@@ -1,0 +1,11 @@
+{
+    "guidance_scale": 1,
+    "seg_scale": 3,
+    "seg_blur_sigma": 5,
+    "seg_applied_layers_index": [13],
+    "num_inference_steps": 28
+}
+
+
+
+

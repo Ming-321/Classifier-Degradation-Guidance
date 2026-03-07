@@ -1,0 +1,8 @@
+{
+    "guidance_scale": 7,
+    "sfg_guidance_scale": 2,
+    "sfg_scale": 10.0,
+    "sfg_start_ratio": 0.5,
+    "sfg_applied_layers_index": null,
+    "num_inference_steps": 28
+}

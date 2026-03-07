@@ -1,0 +1,6 @@
+{
+    "guidance_scale": 7,
+    "num_inference_steps": 28,
+    "dns_guidance_scale": 7,
+    "blip2_model_path": "path/to/your/blip2-opt-2.7b"
+}
