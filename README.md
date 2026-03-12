@@ -4,7 +4,7 @@
 
 **English** | [中文](README_zh.md)
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/XXXX.XXXXX) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2603.10780) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ![Title Image](figures/title_image_01.png)
 
@@ -238,9 +238,9 @@ classifier-degradation-guidance/
 If you find our work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{cdg2026,
+@inproceedings{han2026cdg,
   title={Guiding Diffusion Models with Semantically Degraded Conditions},
-  author={[Authors]},
+  author={Han, Shilong and Zhang, Yuming and Wang, Hongxia},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2026}
 }
