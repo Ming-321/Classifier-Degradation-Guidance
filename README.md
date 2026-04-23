@@ -35,7 +35,7 @@ conda activate cdg
 # Install system dependencies
 conda install ffmpeg=6.1.2 -c conda-forge
 
-# Install PyTorch with CUDA 12.1 support (IMPORTANT: include torchaudio)
+# Install PyTorch with CUDA 12.1 support; keep torchaudio on the same index for compatibility
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # Install other dependencies
